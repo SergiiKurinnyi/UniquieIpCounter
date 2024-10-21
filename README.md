@@ -29,13 +29,21 @@ go test -v
 
 ## Performance Summary
 
-Test Environment:
+### Test Environment:
+
 CPU: Intel i7-8565U
+
 RAM: 16 GB
+
 OS: Windows 10
 
-Processing a 120GB file with 1,000,000,000 unique IPs
+
+
+
+### Processing a 120GB file with 1,000,000,000 unique IPs:
+
 Memory used: 784 MB
+
 Processing time: 4,065 sec (~1 hour 7 min)
 
 
@@ -43,6 +51,6 @@ Processing time: 4,065 sec (~1 hour 7 min)
 
 The application was designed to gain maximum performance while consuming as little memory as possible when processing huge files. Therefore, some refactoring and possible error handling were omitted on purpose.
 
-No 3rd party libriaries were used on purpose as this is one of the task requirements.
+No 3rd party libraries were used on purpose as this is one of the task requirements.
 
 The current version of the application consumes the same amount of memory regardless of the input file's size. But, as it consumes less than 800Mb of RAM it is considered an optimal approach suitable for most environments. 
